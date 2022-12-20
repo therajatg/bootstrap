@@ -56,6 +56,52 @@ function App() {
               <Input placeholder="Enter password"></Input>
             </Col>
           </Row>
+          <Row className="mb-4">
+            <Col className="col-sm-5 me-0 pe-0">
+              <input
+                className="form-check-input me-2"
+                type="checkbox"
+                value=""
+              />
+              <label className="form-check-label" for="flexCheckDefault">
+                Default checkbox
+              </label>
+            </Col>
+            <Col className="col-sm-5 ms-0 ps-0">
+              <input
+                className="form-check-input me-2"
+                type="checkbox"
+                value=""
+              />
+              <label className="form-check-label" for="flexCheckChecked">
+                Checked checkbox
+              </label>
+            </Col>
+          </Row>
+          <Row className="mb-4">
+            <Col className="col-sm-5 me-0 pe-0">
+              <input
+                className="form-check-input me-2"
+                type="radio"
+                name="same"
+                value=""
+              />
+              <label className="form-check-label" for="flexCheckDefault">
+                Default checkbox
+              </label>
+            </Col>
+            <Col className="col-sm-5 ms-0 ps-0">
+              <input
+                className="form-check-input me-2"
+                type="radio"
+                name="same"
+                value=""
+              />
+              <label className="form-check-label" for="flexCheckChecked">
+                Checked checkbox
+              </label>
+            </Col>
+          </Row>
           <Button color="primary" className="col-12 mb-4">
             Create New Account
           </Button>
